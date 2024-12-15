@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "url": "/page.tsx",
+      "type": "page",
+      "status": "success",
+      "access": "public",
+      "userType": "all"
+    },
+    {
+      "url": "/api/blogPosts",
+      "type": "api",
+      "status": "success",
+      "method": "POST"
+    },
+    {
+      "url": "/api/blogPosts/{blogPostId}",
+      "type": "api",
+      "status": "success",
+      "method": "PATCH"
+    },
+    {
+      "url": "/api/subscriptions",
+      "type": "api",
+      "status": "success",
+      "method": "POST"
+    },
+    {
+      "url": "/api/subscriptions/{subscriptionId}",
+      "type": "api",
+      "status": "success",
+      "method": "PATCH"
+    },
+    {
+      "url": "/api/premiumContent",
+      "type": "api",
+      "status": "success",
+      "method": "GET"
+    },
+    {
+      "url": "dashboard/user/blogs/page.tsx",
+      "type": "page",
+      "status": "success",
+      "userType": "user",
+      "access": "private"
+    },
+    {
+      "url": "dashboard/user/subscription/page.tsx",
+      "type": "page",
+      "status": "success",
+      "userType": "user",
+      "access": "private"
+    },
+    {
+      "url": "dashboard/user/premium-content/page.tsx",
+      "type": "page",
+      "status": "success",
+      "userType": "user",
+      "access": "private"
+    },
+    {
+      "url": "/(auth)/register/page.tsx",
+      "type": "page",
+      "status": "success",
+      "access": "public",
+      "userType": "all"
+    },
+    {
+      "url": "/(auth)/login/page.tsx",
+      "type": "page",
+      "status": "success",
+      "access": "public",
+      "userType": "all"
+    }
+  ]
+}
